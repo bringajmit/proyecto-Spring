@@ -41,6 +41,7 @@ public class CalculadoraDeCadenaTest {
     }
 
     private CalculadoraDeCadena DadoQueTenemosUnaCalculadora() {
-        return new CalculadoraDeCadena();
+        
+    	return new CalculadoraDeCadena();
     }
 }
