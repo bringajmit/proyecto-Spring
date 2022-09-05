@@ -27,7 +27,7 @@ public class CalculadoraDeCadenaTest {
 
     @Test
     public void DebeDevolver6SiRecibe3Y3(){
-      //  CalculadoraDeCadena calculadoraDeCadena = DadoQueTenemosUnaCalculadora();
+        CalculadoraDeCadena calculadoraDeCadena = DadoQueTenemosUnaCalculadora();
         Long resultado = CuandoRealizamosLaOperacionSumar(calculadoraDeCadena, "3,3");
         EntoncesReciboElResultado(resultado, 6L);
     }
